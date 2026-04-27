@@ -118,6 +118,9 @@ if TYPE_CHECKING:
     from langchain_community.document_loaders.college_confidential import (
         CollegeConfidentialLoader,
     )
+    from langchain_community.document_loaders.comparedge import (
+        ComparEdgeLoader,
+    )
     from langchain_community.document_loaders.concurrent import (
         ConcurrentLoader,
     )
@@ -578,6 +581,7 @@ _module_lookup = {
     "CloudBlobLoader": "langchain_community.document_loaders.blob_loaders",
     "CoNLLULoader": "langchain_community.document_loaders.conllu",
     "CollegeConfidentialLoader": "langchain_community.document_loaders.college_confidential",  # noqa: E501
+    "ComparEdgeLoader": "langchain_community.document_loaders.comparedge",
     "ConcurrentLoader": "langchain_community.document_loaders.concurrent",
     "ConfluenceLoader": "langchain_community.document_loaders.confluence",
     "CouchbaseLoader": "langchain_community.document_loaders.couchbase",
@@ -786,6 +790,7 @@ __all__ = [
     "CloudBlobLoader",
     "CoNLLULoader",
     "CollegeConfidentialLoader",
+    "ComparEdgeLoader",
     "ConcurrentLoader",
     "ConfluenceLoader",
     "CouchbaseLoader",
